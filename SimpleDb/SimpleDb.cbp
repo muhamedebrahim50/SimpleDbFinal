@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SimpleDb" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SimpleDb" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SimpleDb" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="1_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="2_MAIN_MENU.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="3_SDB_AddEntry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="4_SDB_GetUsedSize.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="5_SDB_IsIdExist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="6_SDB_ReadEntry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="7_SDB_DeleteEntry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="8_SDB_GetIdList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Header.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

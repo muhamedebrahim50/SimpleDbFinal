@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1630714098 source:e:\learning\embedded systems\projects\simpledb\1_main.c
+	"Header.h"
+
+1631186251 e:\learning\embedded systems\projects\simpledb\header.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<stdbool.h>
+
+1631186003 source:e:\learning\embedded systems\projects\simpledb\2_main_menu.c
+	"Header.h"
+
+1631186003 source:e:\learning\embedded systems\projects\simpledb\3_sdb_addentry.c
+	"Header.h"
+
+1630790478 source:e:\learning\embedded systems\projects\simpledb\4_sdb_getusedsize.c
+	"Header.h"
+
+1631185824 source:e:\learning\embedded systems\projects\simpledb\5_sdb_isidexist.c
+	"Header.h"
+
+1631186003 source:e:\learning\embedded systems\projects\simpledb\6_sdb_readentry.c
+	"Header.h"
+
+1631185824 source:e:\learning\embedded systems\projects\simpledb\7_sdb_deleteentry.c
+	"Header.h"
+
+1631185824 source:e:\learning\embedded systems\projects\simpledb\8_sdb_getidlist.c
+	"Header.h"
+
